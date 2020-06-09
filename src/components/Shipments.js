@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import ShipmentBlock from './ShipmentBlock';
 import Search from './Search';
+import Sorting from './Sorting';
 
 
 class Shipments extends Component {
@@ -26,6 +27,8 @@ class Shipments extends Component {
         return (
             <div>
                 <Search handleShipment={this.updateShipmentDetail} />
+
+                <Sorting handleSortingOfShipment={this.updateShipmentDetail} />
 
                 <div>
                     {this.state.shipmentDetail.map((data) => this.renderShipmentBlock(data))}
