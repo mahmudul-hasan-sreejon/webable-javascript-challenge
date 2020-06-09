@@ -8,21 +8,9 @@ import ShipmentDetail from "../components/ShipmentDetail";
 const Routes = (
     <Router>
         <Switch>
-            <Route path="/" exact
-                render={
-                    () => {
-                        return (<Shipments />);
-                    }
-                }
-            />
+            <Route path="/" exact render={() => (<Shipments />)} />
 
-            <Route path="/shipments/:shipmentId" exact
-                render={
-                    (props) => {
-                        return (<ShipmentDetail {...props} />);
-                    }
-                }
-            />
+            <Route path="/shipments/:shipmentId" exact render={(props) => (<ShipmentDetail {...props} />)} />
         </Switch>
     </Router>
 );
