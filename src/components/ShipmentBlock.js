@@ -3,7 +3,7 @@ import React from 'react';
 
 const ShipmentBlock = (props) => {
     return (
-        <div  data-test="shipment-block" className={`shipment-block ${props.status.toLocaleLowerCase()}`}>
+        <div className={`shipment-block ${props.status.toLocaleLowerCase()}`}>
             <div className="name-container">
                 <span>Name:</span> 
                 <span className="nameValue">{props.name}</span>
