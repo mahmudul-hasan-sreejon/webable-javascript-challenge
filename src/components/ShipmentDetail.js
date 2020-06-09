@@ -4,6 +4,8 @@ import axios from 'axios';
 import ShipmentData from './ShipmentData';
 import Modal from './Modal';
 
+import '../css/shipment-detail.css';
+
 
 class ShipmentDetail extends Component {
     constructor(props) {
@@ -62,7 +64,7 @@ class ShipmentDetail extends Component {
 
                 <h1>Shipment Details</h1>
 
-                <span className="edit" onClick={this.modalOpen}>Click to edit Name</span>
+                <span className="edit" onClick={this.modalOpen}>Click to edit name</span>
 
                 <ShipmentData label="Name: " value={this.state.details.name}/>
 
