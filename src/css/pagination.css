@@ -1,0 +1,26 @@
+.pagination {
+    position: relative;
+    left: 41%;
+    display: inline-block;
+}
+
+.index-box {
+    width: 30px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 3px;
+    background: #f6f1f1;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 0.25rem;
+    transition: background 1s ease-in;
+}
+
+.index-box:hover {
+    background: slategray;
+    color: white;
+    transition: background 1s ease-out;
+}
