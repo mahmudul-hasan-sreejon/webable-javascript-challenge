@@ -1,0 +1,73 @@
+.show-modal {
+    display: block;
+}
+
+.hide-modal {
+    display: none;
+}
+
+.modal {
+    margin: auto;
+    margin-top: 12%;
+    width: 500px;
+    background: white;
+    height: 300px;
+    border-radius: 8px;
+    border: 2px solid #ada6a6;
+}
+
+.modal-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    background: #0000002e;
+}
+
+.modal-body {
+    width: 100%;
+    padding-top: 111px;
+    padding-left: 15px;
+}
+
+.btn {
+    width: 73px;
+    height: 29px;
+    background: grey;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-close {
+    background: #FF8A65;
+    color: white;
+    transition: background 1s ease-in;
+}
+.btn-close:hover {
+    color: #FF8A65;
+    background: white;
+    transition: background 1s ease-out;
+}
+
+.btn-save {
+    background: #2196F3;
+    color: white;
+    transition: background 1s ease-in;
+    margin-right: 5px;
+}
+.btn-save:hover {
+    color: #2196F3;
+    background: white;
+    transition: background 1s ease-out;
+}
+
+
+.text-input {
+    width: 82%;
+    font-size: 16px;
+    padding: 12px 20px 12px 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
