@@ -4,18 +4,26 @@
 
 .search.btn {
     width: 73px;
-    height: 40px;
+    height: 35px;
     border-radius: 5px;
     color: white;
     cursor: pointer;
 }
 
 .btn-blue {
-    background: #aaa;
+    background: #2196F3;
+    color: white;
+    transition: background 1s ease-in;
+}
+.btn-blue:hover {
+    color: #2196F3;
+    background: white;
+    transition: background 1s ease-out;
 }
 
 .search.text-input {
     width: 19%;
+    height: 29px;
     font-size: 14px;
     border: 1px solid #111;
     margin-right: 5px;
