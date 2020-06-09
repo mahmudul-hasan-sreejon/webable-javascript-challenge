@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import '../css/search.css';
+
 
 class Search extends Component {
     constructor(props) {
@@ -24,7 +26,7 @@ class Search extends Component {
 
     render() {
         return (
-            <div>
+            <div className="search-container">
                 <input type="text" placeholder="Search by ID" className="search text-input" onChange={this.handleChange}/>
                 <input type="button" className="btn btn-blue search" value="Search" onClick={this.handleClick}/>
             </div>
