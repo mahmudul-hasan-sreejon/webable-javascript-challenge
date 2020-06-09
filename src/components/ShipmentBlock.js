@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../css/shipment-block.css';
+
 
 const ShipmentBlock = (props) => {
     return (
@@ -20,7 +22,7 @@ const ShipmentBlock = (props) => {
             </div>
 
             <div className="more-details-container">
-                <a href={`/shipments/${props.id}`} className="more-details-link">More Details</a>
+                <a href={`/shipments/${props.id}`} className="more-details-link">More Details...</a>
             </div>
         </div>
     );
