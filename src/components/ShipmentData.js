@@ -1,5 +1,7 @@
 import React from 'react';
 
+import '../css/shipment-data.css';
+
 
 const ShipmentData = (props) => {
     return (
