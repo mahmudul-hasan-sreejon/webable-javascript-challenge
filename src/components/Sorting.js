@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 
+import '../css/sorting.css';
+
 
 class Sorting extends Component {
     constructor(props) {
