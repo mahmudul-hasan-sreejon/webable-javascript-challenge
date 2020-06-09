@@ -1,0 +1,20 @@
+{
+  "name": "webable-javascript-challenge",
+  "version": "1.0.0",
+  "description": "WebAble JavaScript/Frontend Coding Challenge",
+  "private": true,
+  "dependencies": {
+    "json-server": "^0.16.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "json-server db.json"
+  },
+  "license": "MIT"
+}
