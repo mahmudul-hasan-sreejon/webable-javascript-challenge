@@ -9,7 +9,6 @@
 }
 
 .active {
-    /* background: #2196F3; */
     background: #FF8A65;
     color: white;
     transition: background 1s ease-in;
