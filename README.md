@@ -28,3 +28,7 @@ json-server --watch db.json --port 3001
 ```
 npm start
 ```
+
+## Author
+
+Created and maintained by Mahmudul Hasan Sreejon ([@mahmudul-hasan-sreejon](https://www.mahmudul-hasan-sreejon.com/)).
